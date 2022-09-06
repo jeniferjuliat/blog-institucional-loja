@@ -1,0 +1,46 @@
+@import "header.css";
+@import "footer.css";
+@import "content-index.css";
+
+@media (min-width: 500px) and (max-width: 900px) {
+	.pt-br{
+		margin-top: 16px;
+	}
+	.en{
+		margin-top: 16px;
+	}
+	.navbar {
+		text-align: center;
+		font-size: 1.5em;
+	}
+	.nav-item {
+		display: inline-block;
+		color: red;
+	}
+	
+	.footer p {
+		font-size: 1.7em;
+	}
+}
+
+@media (min-width: 901px) {
+	.pt-br{
+		margin-top: 16px;
+	}
+	.en{
+		margin-top: 16px;
+	}
+	.navbar {
+		text-align: center;
+		font-size: 1.5em;
+	}
+	.nav-item {
+		display: inline-block;
+		color: red;
+	}
+
+	.footer p {
+		font-size: 1.3em;
+	}
+
+}
